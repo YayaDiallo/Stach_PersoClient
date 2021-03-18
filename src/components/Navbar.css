@@ -75,6 +75,7 @@ h1 {
   .nav-menu.active {
     left: 0;
     transition: 350ms;
+    z-index: 200;
   }
 
   .nav-text {
