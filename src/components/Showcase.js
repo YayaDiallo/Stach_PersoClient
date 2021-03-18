@@ -15,7 +15,7 @@ const Showcase = () => {
         </div>
 
         <div className='showcase-form card'>
-          <h2>Réservez votre prestation</h2>
+          <h2>Réservez votre salon</h2>
           <form>
             <div className='form-control'>
               <input
@@ -34,12 +34,20 @@ const Showcase = () => {
               />
             </div>
             <div className='form-control'>
+              <input type='checkbox' id='scales' name='scales' />
+              <label htmlFor='scales'> Toutes les dates</label>
+            </div>
+            <div className='form-control'>
               <input
                 type='email'
                 name='email'
                 placeholder='Toutes les heures'
                 required
               />
+            </div>
+            <div className='form-control'>
+              <input type='checkbox' id='scales' name='scales' />
+              <label htmlFor='scales'> Toutes les heures</label>
             </div>
             <div className='form-control'>
               <select name='pets' id='pet-select'>
