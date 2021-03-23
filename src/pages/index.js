@@ -1,3 +1,4 @@
 import Home from './HomePage';
+import Shops from './ShopsPage';
 
-export { Home };
+export { Home, Shops };
